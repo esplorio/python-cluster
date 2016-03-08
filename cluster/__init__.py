@@ -22,4 +22,4 @@ from .method.hierarchical import HierarchicalClustering
 from .method.kmeans import KMeansClustering
 from .util import ClusteringError
 
-__version__ = resource_string('cluster', 'version.txt').decode('ascii').strip()
+__version__ = "1.3.1"
